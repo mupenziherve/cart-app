@@ -1,15 +1,31 @@
 import { useContext, useReducer, useEffect, createContext} from "react";
 
+import reducer from "./reducer";
+
+import {
+  CLEAR_CART,
+  REMOVE,
+  INCREASE,
+  DECREASE,
+  LOADING,
+  DISPLAY_ITEMS,
+} from './action'
+
 const AppContext = createContext();
 
-const reducer = createContext()
+
+ const initialState  ={
+    loading: false,
+    cart: [],
+ };
 
 export const AppProvider = ({children}) =>{
-
+     const [state, dispatch]= useReducer(reducer,initialState);
+   
     return (
 
         <AppContext.Provider 
-        value={{}}>{children}</AppContext.Provider>
+        value={{...state}}>{children}</AppContext.Provider>
     );
 
 };
