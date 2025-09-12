@@ -1,5 +1,6 @@
-import { useContext, useReducer, useEffect, createContext} from "react";
-
+import { useContext, useReducer, useEffect,
+     createContext} from "react";
+import cartItems from "./data";
 import reducer from "./reducer";
 
 import {
@@ -16,7 +17,8 @@ const AppContext = createContext();
 
  const initialState  ={
     loading: false,
-    cart: [],
+    cart: new Map(cartItems.map((item) => 
+        [item.id, item])),
  };
 
 export const AppProvider = ({children}) =>{
@@ -33,3 +35,5 @@ export const AppProvider = ({children}) =>{
 export const useGlobalContext = () =>{
     return useContext(AppContext);
 }
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe unde a! Consequuntur dolor omnis perspiciatis repellendus incidunt nisi sunt qui quisquam est? Consequuntur obcaecati delectus facilis incidunt deleniti facere.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla modi expedita doloremque distinctio quibusdam doloribus corporis tempore adipisci, asperiores inventore voluptatem et, in enim mollitia minus non rerum. Rerum!
