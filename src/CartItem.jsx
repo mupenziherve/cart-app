@@ -3,7 +3,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla modi expedit
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 const CartItem = ({ id, img, title, price, amount }) => {
-
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet suscipit excepturi voluptas accusantium dolore repellat culpa, itaque aperiam velit quam alias reiciendis distinctio animi, rerum dolores. Maiores, expedita non!
  
   return (
     <article className='cart-item'>

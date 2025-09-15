@@ -3,6 +3,8 @@ const cartItems = [
     id: 'rec1JZlfCIBOPdcT2',
     title: 'Samsung Galaxy S8',
     price: '399.99',
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, sequi amet ut dignissimos neque suscipit molestias? Voluptatum, et ipsa officiis optio placeat quidem fugiat laudantium suscipit corporis id iste qui?
+    removeEventListener
     img: 'https://www.course-api.com/images/cart/phone-1.png',
     amount: 1,
   },
