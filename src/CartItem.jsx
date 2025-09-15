@@ -1,9 +1,8 @@
-import { useLorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe unde a! Consequuntur dolor omnis perspiciatis repellendus incidunt nisi sunt qui quisquam est? Consequuntur obcaecati delectus facilis incidunt deleniti facere.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla modi expedita doloremque distinctio quibusdam doloribus corporis tempore adipisci, asperiores inventore voluptatem et, in enim mollitia minus non rerum. Rerum! } from 'react';
+import { use} from 'react';
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 const CartItem = ({ id, img, title, price, amount }) => {
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet suscipit excepturi voluptas accusantium dolore repellat culpa, itaque aperiam velit quam alias reiciendis distinctio animi, rerum dolores. Maiores, expedita non!
+
  
   return (
     <article className='cart-item'>

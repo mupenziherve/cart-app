@@ -5,7 +5,6 @@ const CartContainer = () => {
   const {cart} =useGlobalContext()
   const cartArray = Array.from(cart.entries());
   
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus reiciendis nihil id quae dicta quidem ut suscipit alias non perspiciatis expedita fugit ratione consectetur minima, fuga temporibus. Laborum, recusandae.
   
   if (cartArray.length === 0) {
     return (
